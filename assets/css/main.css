@@ -951,10 +951,27 @@ section,
   overflow: hidden;
 }
 
+.testimonials .testimonial-box {
+  box-sizing: content-box;
+  text-align: center;
+  min-height: 100px;
+}
+
+.testimonials .testimonial-box .testimonial-img {
+  width: 90px;
+  margin: 0 auto;
+}
+
+.testimonials .testimonial-box h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0 5px 0;
+}
+
 .testimonials .testimonial-item {
   box-sizing: content-box;
   text-align: center;
-  min-height: 320px;
+  min-height: 100px;
 }
 
 .testimonials .testimonial-item .testimonial-img {
@@ -1043,6 +1060,11 @@ section,
 /*--------------------------------------------------------------
 # Contact Section
 --------------------------------------------------------------*/
+.container.section-title {
+  margin-bottom: 10px !important;
+  padding-bottom: 10px !important;
+}
+
 .contact .info-wrap {
   background-color: var(--surface-color);
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
